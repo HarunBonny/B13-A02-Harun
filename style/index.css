@@ -290,9 +290,30 @@ header {
     .hero-contant p {
         margin-bottom: 8px;
         padding: 0 20px;
+        opacity: 80%;
     }
 
+    /* podcast section  */
+    .podcast_contant {
+        padding: 0 20px;
 
+    }
+
+    .podcast_contant p {
+        opacity: 80%;
+        line-height: 18px;
+    }
+
+    .podcast_contant h1 {
+        font-size: 2rem;
+    }
+
+    .podcast_analysis {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 0;
+    }
 }
 
 
