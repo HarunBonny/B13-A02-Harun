@@ -194,9 +194,59 @@ header {
 }
 
 
+/* About Podcast related style here  */
+.about_podcast {
+    background-color: #1A0B2E;
+    padding: 40px 0 120px 0;
 
+}
 
+.podcast_contant {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(157, 104, 255, 0.333);
 
+}
+
+.podcast_contant h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.podcast_contant p {
+    font-size: var(--primary-font-size);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.join-professionals {
+    margin-top: 40px;
+    padding: 30px 0 30px 0;
+}
+
+.podcast_analysis {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+.podcast_analysis_card h1 {
+    color: #00FF88;
+    font-size: 3rem;
+}
+
+.podcast_analysis_card p {
+    font-size: var(--primary-font-size);
+    color: var(--primary-color);
+}
 
 /* Responsive related style from here  */
 
