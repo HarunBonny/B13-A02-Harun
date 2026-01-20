@@ -404,6 +404,7 @@ header {
     align-items: center;
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 .host_details:hover {
@@ -475,9 +476,58 @@ header {
     transform: scale(1.1);
 }
 
+/* footer related style here  */
+.footer {
+    background-image: url(../media/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 412px;
 
+}
 
+.footer_section {
+    border: 2px solid black;
+    /* max-width: 1360px; */
+    /* max-height: 172px; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.footer_logo img {
+    width: 100%;
+
+}
+
+.footer_social_link {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+}
+
+.footer_social_link a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--primary-font-size);
+    opacity: 80%;
+
+}
+
+.copy-write {
+    font-size: var(--primary-font-size);
+    color: var(--primary-color);
+    opacity: 60%;
+}
 
 /* Responsive related style from here  */
 
@@ -593,9 +643,11 @@ header {
         background-color: rgba(53, 17, 101, 0.4);
         border-radius: 30px;
     }
-.host-section{
-    margin: 20px;
-}
+
+    .host-section {
+        margin: 20px;
+    }
+
     .host_img {
         width: 50%;
         padding: 20px;
