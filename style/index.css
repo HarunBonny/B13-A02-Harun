@@ -197,7 +197,7 @@ header {
 
 .message-btn:hover {
     transform: scale(105%) translateY(5px);
-    border: 2px solid #F7E93F;
+    border: 2px solid #f7e83f9a;
     color: #F7E93F;
 
 }
@@ -356,7 +356,8 @@ header {
 
 .episodescard:hover {
     transform: scale(108%);
-    box-shadow: 0 4px 27px 0 #9100F8;
+    box-shadow: 0 4px 20px 0 #f7e83fa5;
+    border: 2px solid #F7E93F;
 }
 
 .episodes_contant {
@@ -384,6 +385,99 @@ header {
     justify-content: flex-start;
     gap: 10px;
 }
+
+/* Host related style here  */
+.meet_host {
+    padding: 40px 0;
+    background-color: #1A0B2E;
+}
+
+.host-section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.host_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 30px;
+}
+
+.host_details:hover {
+    border-color: #F7E93F;
+    box-shadow: 0 0 30px #f7e83f9a;
+    transform: scale(1.1);
+}
+
+.host_img {
+    width: 30%;
+    padding: 40px;
+}
+
+.host_img img {
+    width: 100%;
+}
+
+.host-contant {
+    width: 70%;
+}
+
+.host-contant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.host-contant h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 500px;
+}
+
+.host-contant p {
+    color: var(--primary-color);
+    font-size: 1rem;
+    opacity: 60%;
+
+}
+
+.host_social_link {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.icon img {
+    width: 22px;
+    /* control icon size */
+    height: 22px;
+    object-fit: contain;
+}
+
+.icon:hover {
+    border-color: #F7E93F;
+    box-shadow: 0 0 15px #f7e83f9a;
+    transform: scale(1.1);
+}
+
+
+
+
 
 /* Responsive related style from here  */
 
