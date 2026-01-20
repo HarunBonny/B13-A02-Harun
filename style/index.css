@@ -485,7 +485,6 @@ header {
     justify-content: center;
     align-items: center;
     height: 412px;
-
 }
 
 .footer_section {
@@ -496,11 +495,12 @@ header {
 }
 
 
-.footer_logo{
+.footer_logo {
     margin-bottom: 50px;
-   
+
 }
-.footer_logo img{
+
+.footer_logo img {
     width: 410px;
 }
 
@@ -509,7 +509,7 @@ header {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px 80px;
+    gap: 0px 50px;
     transition: 0.2s;
     margin-bottom: 50px;
 }
@@ -693,7 +693,7 @@ header {
     .footer_social_link {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-      
+
     }
 }
 
