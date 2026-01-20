@@ -585,6 +585,30 @@ header {
         border-radius: 25px 25px 0 0;
     }
 
+    .host_details {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(53, 17, 101, 0.4);
+        border-radius: 30px;
+    }
+.host-section{
+    margin: 20px;
+}
+    .host_img {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .host_img img {
+        width: 100%;
+    }
+
+    .host-contant {
+        width: 100%;
+    }
+
 }
 
 
