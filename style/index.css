@@ -509,7 +509,7 @@ header {
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0px 100px;
+    gap: 0px 80px;
     transition: 0.2s;
     margin-bottom: 50px;
 }
